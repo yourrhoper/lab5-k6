@@ -1,0 +1,42 @@
+name: k6 performance tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: 'Профиль нагрузки (smoke | load | stress | spike)'
+        default: 'smoke'
+  pull_request:
+
+jobs:
+  k6:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Запуск учебного стенда
+        run: |
+          node server/server.js &
+          sleep 2
+          curl -sf http://localhost:3000/api/health
+
+      - uses: grafana/setup-k6-action@v1
+
+      - name: k6 run
+        uses: grafana/run-k6-action@v1
+        env:
+          PROFILE: ${{ github.event.inputs.profile || 'smoke' }}
+          BASE_URL: http://localhost:3000
+        with:
+          path: k6/achievements-test.js
+          flags: --summary-export=summary.json
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: k6-summary
+          path: summary.json

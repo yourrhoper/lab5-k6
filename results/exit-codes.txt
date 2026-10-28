@@ -1,0 +1,6 @@
+load exit code: 0
+stress exit code: 99
+spike exit code: 99
+DONE
+stress-async exit code: 0
+COMPARE-DONE

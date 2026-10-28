@@ -1,0 +1,366 @@
+{
+    "metrics": {
+        "submit_flow_duration": {
+            "p(99)": 393.33999999999924,
+            "max": 531,
+            "avg": 143.2894818492088,
+            "min": 54,
+            "med": 118,
+            "p(90)": 252,
+            "p(95)": 286,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "iteration_duration": {
+            "min": 1004.312192,
+            "med": 1036.609407,
+            "p(90)": 2138.6125118,
+            "p(95)": 2199.91606,
+            "p(99)": 2298.77803796,
+            "max": 2532.621648,
+            "avg": 1306.4342078742557
+        },
+        "http_req_connecting": {
+            "min": 0,
+            "med": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "max": 1.014276,
+            "avg": 0.0003210117295058865
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 46123,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "vus": {
+            "value": 1,
+            "min": 0,
+            "max": 50
+        },
+        "http_req_blocked": {
+            "avg": 0.0063862679574182195,
+            "min": 0.001261,
+            "med": 0.004437,
+            "p(90)": 0.008425,
+            "p(95)": 0.010115,
+            "p(99)": 0.04480868,
+            "max": 2.867336
+        },
+        "login_duration": {
+            "min": 30.628966,
+            "med": 43.935273,
+            "p(90)": 99.46804440000001,
+            "p(95)": 121.610576,
+            "p(99)": 161.21395233999985,
+            "max": 246.017992,
+            "avg": 58.10340380794297
+        },
+        "vus_max": {
+            "value": 50,
+            "min": 33,
+            "max": 50
+        },
+        "http_req_waiting": {
+            "avg": 17.27858589449941,
+            "min": 0.079795,
+            "med": 5.836344,
+            "p(90)": 48.70880660000002,
+            "p(95)": 69.2633802,
+            "p(99)": 122.31868337999998,
+            "max": 245.559343
+        },
+        "achievements_created": {
+            "count": 3223,
+            "rate": 8.184835997274686
+        },
+        "submit_success": {
+            "passes": 3223,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "http_req_sending": {
+            "p(95)": 0.20314050000000006,
+            "p(99)": 0.4081774199999997,
+            "max": 19.119487,
+            "avg": 0.04590074047655158,
+            "min": 0.003943,
+            "med": 0.014416,
+            "p(90)": 0.07792000000000007
+        },
+        "checks": {
+            "passes": 82477,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "http_reqs": {
+            "count": 46123,
+            "rate": 117.1297520019548
+        },
+        "http_req_receiving": {
+            "p(90)": 0.13841720000000002,
+            "p(95)": 0.19294390000000003,
+            "p(99)": 0.71217826,
+            "max": 8.096427,
+            "avg": 0.08470725076425997,
+            "min": 0.010863,
+            "med": 0.056055
+        },
+        "iterations": {
+            "count": 13209,
+            "rate": 33.54436819360885
+        },
+        "http_req_duration{scenario:submit}": {
+            "p(95)": 93.56814249999998,
+            "p(99)": 139.96624216,
+            "max": 246.017992,
+            "avg": 28.1498589177784,
+            "min": 0.282918,
+            "med": 13.461292,
+            "p(90)": 67.9796816,
+            "thresholds": {
+                "p(95)<2000": false
+            }
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(90)": 48.891349600000005,
+            "p(95)": 69.45911000000001,
+            "p(99)": 122.5333197199999,
+            "max": 246.017992,
+            "avg": 17.409193885740365,
+            "min": 0.108359,
+            "med": 5.947942
+        },
+        "http_req_duration": {
+            "p(95)": 69.45911000000001,
+            "p(99)": 122.5333197199999,
+            "max": 246.017992,
+            "avg": 17.409193885740365,
+            "min": 0.108359,
+            "med": 5.947942,
+            "p(90)": 48.891349600000005,
+            "thresholds": {
+                "p(95)<2000": false,
+                "p(99)<3000": false
+            }
+        },
+        "http_req_duration{scenario:browse}": {
+            "p(90)": 34.6079714,
+            "p(95)": 52.88472465,
+            "p(99)": 100.9497166,
+            "max": 227.882538,
+            "avg": 11.596910580145552,
+            "min": 0.108359,
+            "med": 3.758661,
+            "thresholds": {
+                "p(95)<500": false
+            }
+        },
+        "data_sent": {
+            "count": 671963051,
+            "rate": 1706455.900919431
+        },
+        "http_req_tls_handshaking": {
+            "p(99)": 0,
+            "max": 0,
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "group_duration": {
+            "min": 4.085978,
+            "med": 35.779026,
+            "p(90)": 1137.9233,
+            "p(95)": 1199.4636893999998,
+            "p(99)": 1298.22981204,
+            "max": 1531.189514,
+            "avg": 305.64806112400817
+        },
+        "data_received": {
+            "count": 25971373,
+            "rate": 65954.52331028479
+        }
+    },
+    "setup_data": {
+        "tokens": [
+            "0cedc2c67811fb11565d10547bacf21b8eb6bbff3bfa0f14",
+            "7384d138b06d7ec3cd9949f64ad9800ffa825a371de1015b",
+            "2c5547d8b76b51b36f9cd69455bb4a847bae24aeaa21fd9a",
+            "16d53c2c271b3d2183bc6ddf6d1db659b43e2495ef0d330b",
+            "300d7326074402a7e00faa7b0c6be3dbea803b5d3afbd470",
+            "4d06fb7fe44247a8d686325d52bfb7c78623def40c5570ee",
+            "2b5f5a74071fbd7e482b5a0dc4ee2e702099ad11707c0b71",
+            "bb95c3300ae747cdd3b28b84c03a57723eea691df39e09eb",
+            "2d47df9668329865e77c51ebb0d82031b8b113836c3fdefc",
+            "fad21728da08835d53fca0e2b47ec0b92fb25a6f9e52f5bc",
+            "64322062d796736f84a93eaf8cde4f96deaa114d435615bd",
+            "c4d8182ac3813a7a93957fbfd427298dd9816cf6c6d05954",
+            "5a8358eea575fe29a51c81378da1ecd5b2332d63baf2d0bd",
+            "e6031a645ceb893557303277cf30e7364a8e4b5b65a085ce",
+            "c1435b8805809da6e653fd425ef3b01c6f32fcd1d8385e72",
+            "05dddff13aa578c89d2251f592dcefc700064b1ca30220a1",
+            "4bf64d8cbaf229e06a49d22bcdc74b3ed58f4ddb0d4e14aa",
+            "a0b643cdb1a32d3baf5fa36eda02983ce0ab46792780c07e",
+            "095115da87c8a7f00b0e9e49e2be0349e36eed9145bf949d",
+            "37b9e3ff4f86804300a4d6089e753601d92b73c49fb06574",
+            "9720f15ca7704da9111455aaa0e5f6494eb827962fb70a39",
+            "b7f3307356f236f11b619f9b90c47a1c688d7299a1d58865",
+            "88213799eb714d2c46881c32e47b829bf3c772d1d6f2cf41",
+            "de39563fb96ecb82df31abbb59a88075dcf60fd351cefae0",
+            "aa8686fe0c049ae53a1c6a9d7b5d05155d4bed6bf3f8a1a0",
+            "d4143002350ace68ef11a5d08f6c2f14ba04e6c878baa4f7",
+            "a36587a1ddd283ebbecd2b85bc27e0b0b5229d37ad0d15e6",
+            "44c2dc1aa2dc559fb84cf17750a3dfa5da10f93679590c1f",
+            "e6561a41a752aa83357a4e1c9a5ba58d4f38078f9475aed2",
+            "2951342f9888414554f902909eea0e39fc0cda13fba006f2",
+            "036b396f7c46f022af3411ae341b3f7a5c4c66261635a0ff",
+            "c59293d11152152d8e90263f9a75400afedef34f1030fd2c",
+            "6216c67f4e60a885458e604ce90efb664b3152f4313a6a42",
+            "5536cd62f25a35f81af392a1d6e101083b2f7fea9a29d72f",
+            "488f43e6e46610a6ed5652f7510b3de4371d98c98b16d32e",
+            "d6d25059791925e870d8a8629fa70d27cb5909270b0a319f",
+            "a26f3315b7b49faf222b67cc0fbf31750782a65d5b8ff2ed",
+            "2760c29644850f0e5d518578958ad795c3f7b717a4c5c2a1",
+            "8861fb781beedb3ab75e814b4341687563acbfc8a3addaba",
+            "16d17518446fffbf9ffc3b07680ca847224fc0b63c6ecb65",
+            "0290da55189004aea3268c7f24306186cdfc4fae6eea0983",
+            "c0b4b30d85106b6ef66009bba9450f2230b4372f25e85b6c",
+            "5628f686aa87450d4bb58de5001086c8203fa42302b8aed0",
+            "570a1c4f06b52e820a3a0e368cd968ab5c626be9518b46cd",
+            "b608ee5e1beb4362384bd2ea31e84f5dc68f4a65b7555ddb",
+            "d4075211938f71c7c0c4a93baee33d44852c2d336d8de710",
+            "44dd6ef16f903348c3c7784d3bcb4efe782f17836ee05d94",
+            "ee9e4b9bffaddd9b52c8a3985affd84da31e3a266d03e971",
+            "fcde98d3bcefca509329aa495e4c4baa859a90851b38e4c0",
+            "27531e2573e47b8e34c14de85a40c3af42761c880bcff6cd"
+        ]
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+            "Открытие раздела «Культурно-творческая деятельность»": {
+                "checks": {
+                    "health: status 200": {
+                        "name": "health: status 200",
+                        "path": "::Открытие раздела «Культурно-творческая деятельность»::health: status 200",
+                        "id": "c71ab6c67e666824eb9c38685cd13d10",
+                        "passes": 9986,
+                        "fails": 0
+                    },
+                    "health: status ok": {
+                        "passes": 9986,
+                        "fails": 0,
+                        "name": "health: status ok",
+                        "path": "::Открытие раздела «Культурно-творческая деятельность»::health: status ok",
+                        "id": "01f4a6a7694120447b5453be9939089f"
+                    },
+                    "list: status 200": {
+                        "name": "list: status 200",
+                        "path": "::Открытие раздела «Культурно-творческая деятельность»::list: status 200",
+                        "id": "a0d9b4b53211ac8c22fadbf5e47cccb2",
+                        "passes": 9986,
+                        "fails": 0
+                    },
+                    "list: есть items": {
+                        "id": "12892b054c202c344ff5924d5420f81b",
+                        "passes": 9986,
+                        "fails": 0,
+                        "name": "list: есть items",
+                        "path": "::Открытие раздела «Культурно-творческая деятельность»::list: есть items"
+                    },
+                    "dict: status 200": {
+                        "passes": 9986,
+                        "fails": 0,
+                        "name": "dict: status 200",
+                        "path": "::Открытие раздела «Культурно-творческая деятельность»::dict: status 200",
+                        "id": "f06bcbd20386ea2f814c9ad625e48e9c"
+                    },
+                    "dict: есть уровни мероприятия": {
+                        "id": "637e0db5344acc077026b5ee1e46378a",
+                        "passes": 9986,
+                        "fails": 0,
+                        "name": "dict: есть уровни мероприятия",
+                        "path": "::Открытие раздела «Культурно-творческая деятельность»::dict: есть уровни мероприятия"
+                    }
+                },
+                "name": "Открытие раздела «Культурно-творческая деятельность»",
+                "path": "::Открытие раздела «Культурно-творческая деятельность»",
+                "id": "91f377d0523ab0acd24a6e191d444a6a",
+                "groups": {}
+            },
+            "Подача достижения": {
+                "id": "53e4a869f97c6abc62405a941c6c1498",
+                "groups": {},
+                "checks": {
+                        "login: status 200": {
+                            "id": "05a423eeddcbd9c9a5157e83bc42425f",
+                            "passes": 3223,
+                            "fails": 0,
+                            "name": "login: status 200",
+                            "path": "::Подача достижения::login: status 200"
+                        },
+                        "login: есть token": {
+                            "fails": 0,
+                            "name": "login: есть token",
+                            "path": "::Подача достижения::login: есть token",
+                            "id": "cb1b54cc606a49843ec330dc87c76aca",
+                            "passes": 3223
+                        },
+                        "dict: status 200": {
+                            "id": "11ebaf0a4909fce99cb3abb94c04cfc7",
+                            "passes": 3223,
+                            "fails": 0,
+                            "name": "dict: status 200",
+                            "path": "::Подача достижения::dict: status 200"
+                        },
+                        "submit: status 201": {
+                            "path": "::Подача достижения::submit: status 201",
+                            "id": "38e951d6b0b9a837c729a1d868b76d1d",
+                            "passes": 3223,
+                            "fails": 0,
+                            "name": "submit: status 201"
+                        },
+                        "submit: статус «Отправлено»": {
+                            "name": "submit: статус «Отправлено»",
+                            "path": "::Подача достижения::submit: статус «Отправлено»",
+                            "id": "2deff19fc016654f9f688a2a82c8a999",
+                            "passes": 3223,
+                            "fails": 0
+                        },
+                        "status: 200 и «Отправлено»": {
+                            "name": "status: 200 и «Отправлено»",
+                            "path": "::Подача достижения::status: 200 и «Отправлено»",
+                            "id": "de64393d5665814609a98c3e4e6b9bde",
+                            "passes": 3223,
+                            "fails": 0
+                        },
+                        "list: новое заявление в списке": {
+                            "name": "list: новое заявление в списке",
+                            "path": "::Подача достижения::list: новое заявление в списке",
+                            "id": "0eebc90a5dabbae5cd163e660e4b1cfa",
+                            "passes": 3223,
+                            "fails": 0
+                        }
+                    },
+                "name": "Подача достижения",
+                "path": "::Подача достижения"
+            }
+        },
+        "checks": {}
+    }
+}

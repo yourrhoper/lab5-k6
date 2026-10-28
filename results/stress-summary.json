@@ -1,0 +1,367 @@
+{
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+            "Открытие раздела «Культурно-творческая деятельность»": {
+                "name": "Открытие раздела «Культурно-творческая деятельность»",
+                "path": "::Открытие раздела «Культурно-творческая деятельность»",
+                "id": "91f377d0523ab0acd24a6e191d444a6a",
+                "groups": {},
+                "checks": {
+                        "health: status 200": {
+                            "name": "health: status 200",
+                            "path": "::Открытие раздела «Культурно-творческая деятельность»::health: status 200",
+                            "id": "c71ab6c67e666824eb9c38685cd13d10",
+                            "passes": 33088,
+                            "fails": 0
+                        },
+                        "health: status ok": {
+                            "name": "health: status ok",
+                            "path": "::Открытие раздела «Культурно-творческая деятельность»::health: status ok",
+                            "id": "01f4a6a7694120447b5453be9939089f",
+                            "passes": 33088,
+                            "fails": 0
+                        },
+                        "list: status 200": {
+                            "name": "list: status 200",
+                            "path": "::Открытие раздела «Культурно-творческая деятельность»::list: status 200",
+                            "id": "a0d9b4b53211ac8c22fadbf5e47cccb2",
+                            "passes": 33088,
+                            "fails": 0
+                        },
+                        "list: есть items": {
+                            "id": "12892b054c202c344ff5924d5420f81b",
+                            "passes": 33088,
+                            "fails": 0,
+                            "name": "list: есть items",
+                            "path": "::Открытие раздела «Культурно-творческая деятельность»::list: есть items"
+                        },
+                        "dict: status 200": {
+                            "fails": 0,
+                            "name": "dict: status 200",
+                            "path": "::Открытие раздела «Культурно-творческая деятельность»::dict: status 200",
+                            "id": "f06bcbd20386ea2f814c9ad625e48e9c",
+                            "passes": 33088
+                        },
+                        "dict: есть уровни мероприятия": {
+                            "name": "dict: есть уровни мероприятия",
+                            "path": "::Открытие раздела «Культурно-творческая деятельность»::dict: есть уровни мероприятия",
+                            "id": "637e0db5344acc077026b5ee1e46378a",
+                            "passes": 33088,
+                            "fails": 0
+                        }
+                    }
+            },
+            "Подача достижения": {
+                "id": "53e4a869f97c6abc62405a941c6c1498",
+                "groups": {},
+                "checks": {
+                        "login: status 200": {
+                            "id": "05a423eeddcbd9c9a5157e83bc42425f",
+                            "passes": 10887,
+                            "fails": 0,
+                            "name": "login: status 200",
+                            "path": "::Подача достижения::login: status 200"
+                        },
+                        "login: есть token": {
+                            "fails": 0,
+                            "name": "login: есть token",
+                            "path": "::Подача достижения::login: есть token",
+                            "id": "cb1b54cc606a49843ec330dc87c76aca",
+                            "passes": 10887
+                        },
+                        "dict: status 200": {
+                            "name": "dict: status 200",
+                            "path": "::Подача достижения::dict: status 200",
+                            "id": "11ebaf0a4909fce99cb3abb94c04cfc7",
+                            "passes": 10887,
+                            "fails": 0
+                        },
+                        "submit: status 201": {
+                            "fails": 0,
+                            "name": "submit: status 201",
+                            "path": "::Подача достижения::submit: status 201",
+                            "id": "38e951d6b0b9a837c729a1d868b76d1d",
+                            "passes": 10887
+                        },
+                        "submit: статус «Отправлено»": {
+                            "name": "submit: статус «Отправлено»",
+                            "path": "::Подача достижения::submit: статус «Отправлено»",
+                            "id": "2deff19fc016654f9f688a2a82c8a999",
+                            "passes": 10887,
+                            "fails": 0
+                        },
+                        "status: 200 и «Отправлено»": {
+                            "name": "status: 200 и «Отправлено»",
+                            "path": "::Подача достижения::status: 200 и «Отправлено»",
+                            "id": "de64393d5665814609a98c3e4e6b9bde",
+                            "passes": 10887,
+                            "fails": 0
+                        },
+                        "list: новое заявление в списке": {
+                            "name": "list: новое заявление в списке",
+                            "path": "::Подача достижения::list: новое заявление в списке",
+                            "id": "0eebc90a5dabbae5cd163e660e4b1cfa",
+                            "passes": 10887,
+                            "fails": 0
+                        }
+                    },
+                "name": "Подача достижения",
+                "path": "::Подача достижения"
+            }
+        },
+        "checks": {}
+    },
+    "metrics": {
+        "http_req_tls_handshaking": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "max": 0
+        },
+        "http_req_receiving": {
+            "p(95)": 0.1794982,
+            "p(99)": 1.1534875599999774,
+            "max": 132.29811,
+            "avg": 0.09349537676342651,
+            "min": 0.010057,
+            "med": 0.026653,
+            "p(90)": 0.10948740000000003
+        },
+        "data_sent": {
+            "count": 2269591065,
+            "rate": 3422858.066009398
+        },
+        "http_req_blocked": {
+            "p(95)": 0.008604600000000006,
+            "p(99)": 0.045954719999999886,
+            "max": 31.504386,
+            "avg": 0.0071769257491105095,
+            "min": 0.001158,
+            "med": 0.003443,
+            "p(90)": 0.006874
+        },
+        "vus": {
+            "value": 3,
+            "min": 0,
+            "max": 250
+        },
+        "http_req_failed": {
+            "fails": 153749,
+            "passes": 0,
+            "thresholds": {
+                "rate<0.01": false,
+                "rate<0.30": false
+            },
+            "value": 0
+        },
+        "vus_max": {
+            "min": 33,
+            "max": 250,
+            "value": 250
+        },
+        "iteration_duration": {
+            "p(90)": 3345.4271221999998,
+            "p(95)": 4302.718452699989,
+            "p(99)": 5617.988361040001,
+            "max": 7377.081536,
+            "avg": 2066.8877725899647,
+            "min": 1005.170221,
+            "med": 1828.180275
+        },
+        "login_duration": {
+            "avg": 439.0933907945254,
+            "min": 31.218365,
+            "med": 299.781103,
+            "p(90)": 1055.9599699999999,
+            "p(95)": 1276.0629852,
+            "p(99)": 1684.562397639999,
+            "max": 2569.876165
+        },
+        "http_reqs": {
+            "count": 153749,
+            "rate": 231.87481344392717
+        },
+        "http_req_duration{expected_response:true}": {
+            "med": 65.610552,
+            "p(90)": 753.8956288,
+            "p(95)": 1021.9542792000002,
+            "p(99)": 1481.8047390399963,
+            "max": 2569.876165,
+            "avg": 233.06740642723236,
+            "min": 0.090153
+        },
+        "http_req_sending": {
+            "min": 0.003851,
+            "med": 0.010798,
+            "p(90)": 0.17815240000000002,
+            "p(95)": 0.6405664000000006,
+            "p(99)": 6.311521159999996,
+            "max": 208.883667,
+            "avg": 0.30371653593194353
+        },
+        "http_req_waiting": {
+            "p(95)": 1021.4136106000001,
+            "p(99)": 1481.456574039999,
+            "max": 2569.618563,
+            "avg": 232.67019451453424,
+            "min": 0.065751,
+            "med": 65.23554,
+            "p(90)": 753.5217606000003
+        },
+        "http_req_connecting": {
+            "min": 0,
+            "med": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "max": 29.465424,
+            "avg": 0.0007561645278993687
+        },
+        "group_duration": {
+            "max": 6376.722028,
+            "avg": 1063.9945785271848,
+            "min": 4.901797,
+            "med": 825.872657,
+            "p(90)": 2341.7915702,
+            "p(95)": 3299.1502239999886,
+            "p(99)": 4594.6147236800025
+        },
+        "http_req_duration": {
+            "p(99)": 1481.8047390399963,
+            "max": 2569.876165,
+            "avg": 233.06740642723236,
+            "min": 0.090153,
+            "med": 65.610552,
+            "p(90)": 753.8956288,
+            "p(95)": 1021.9542792000002,
+            "thresholds": {
+                "p(99)<3000": false,
+                "p(95)<2000": false
+            }
+        },
+        "submit_success": {
+            "passes": 10887,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "http_req_duration{scenario:submit}": {
+            "med": 105.726673,
+            "p(90)": 791.0048765999999,
+            "p(95)": 1035.1780632999987,
+            "p(99)": 1465.8301051399983,
+            "max": 2569.876165,
+            "avg": 267.1989135776241,
+            "min": 0.305424,
+            "thresholds": {
+                "p(95)<2000": false
+            }
+        },
+        "http_req_duration{scenario:browse}": {
+            "avg": 214.4466934114484,
+            "min": 0.090153,
+            "med": 49.08165150000001,
+            "p(90)": 720.4034353999999,
+            "p(95)": 1016.05057825,
+            "p(99)": 1494.0949715099998,
+            "max": 2491.718205,
+            "thresholds": {
+                "p(95)<500": true
+            }
+        },
+        "submit_flow_duration": {
+            "max": 5377,
+            "avg": 1340.8853678699365,
+            "min": 56,
+            "med": 985,
+            "p(90)": 3106,
+            "p(95)": 3508,
+            "p(99)": 4146,
+            "thresholds": {
+                "p(95)<3000": true
+            }
+        },
+        "achievements_created": {
+            "rate": 16.419105776063812,
+            "count": 10887
+        },
+        "data_received": {
+            "count": 114989856,
+            "rate": 173420.649291664
+        },
+        "iterations": {
+            "count": 43975,
+            "rate": 66.32039831931718
+        },
+        "checks": {
+            "passes": 274737,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        }
+    },
+    "setup_data": {
+        "tokens": [
+            "18516bd87fd4919567cae09f31395b30231ee1fd68e05f27",
+            "a1ebd3d3f65530a07b121943ae9bbb8ca3cf5883ff34ade3",
+            "12a0989cad3a8e2d789f99de70cf659739edeb9e90565dda",
+            "d595ad2f1d2cdc9740a6196fbeaa233a075ad0ef7ceca4f8",
+            "d92ff65fe3e765d17490f30708cf7e20a318601107ad93d3",
+            "53d81f986a48ec1d842fe6605df7c073ba955eb79e24db23",
+            "b94b49984bcd09247c57009b3c852621bf350bb650449d10",
+            "b6dd4cd061f1c769272a3a2f1f98c4eca89b27d9e7aab252",
+            "36a4ad2415e7abc2bac2f44d04d8d671573bf924b78b9cab",
+            "62cfd45e54c39da169784367feb367bc866c0daf3ba61270",
+            "e3c9e1f02692f8483b056c45fed9a959e2baf76729bed1f0",
+            "1f287cf9835f782b7855373d8c23cbd63e86c0166c110d1a",
+            "c73bfef002823eb829e22c7a72b4e34d7de4a0d9755a2811",
+            "fdae0423508d8fbdb7bf7601548f2c760869f2b63901c79f",
+            "ce7b745f0500ef4a1505bb173d8c1cfdf68066aea49f68dc",
+            "34e18824d909970d299b2a16e980c278178a2d8d17935bfc",
+            "51d0acf05988dcde75ad0c2af8295b0d158eb35385ca655f",
+            "99d022aeffdb588a66453b78de6d8b06a6f0798b188ec0a9",
+            "cdad91332ead2c75d131a766df1e380da3339cdfd381150e",
+            "e7102ab991c3e664343181c18c970d7f28ef4f9b0c6553f7",
+            "b22cf93222193dfc6d9b275f13a16a4a47310f38e911a9fd",
+            "230825e9e36635cc77e4e170d7f0bdadcf44b22f6a081866",
+            "3a3981d22b58ad8eff48a2829299a7e2fb4c321d497f233f",
+            "f9f53517401fc16d6158c04c073b612f03772c673e1bfab0",
+            "3ab011ab6eac4ec6d8df9bf214a9b998e04b2489f17cfa46",
+            "0a509e36eacbd286d2ed782f1f62c3a72f145641b5e69bda",
+            "654e1854b439f274050a39801da21d2e9c10acf9bcbbfcfa",
+            "5a2dd39cf1ebf1df540c12031c8dafbf7d7b1822347e1daa",
+            "1f5abcc7dd7118196bef96010b7adb711bdebb691e9b0a83",
+            "43fa8e3cee2e61668e6bad46462a98b110480b8f5c22c665",
+            "41193e1169240817688db926704d55e70451c0f002b69906",
+            "0544c2c334cb64edde04090a1db472ee8b97b7b9bceb04ea",
+            "e5fdbcc2d203ac250aead33ee7fd379062df1c43dd4dd929",
+            "249abf27256560fb648d658a415129e7b1809fe62b2ab647",
+            "a815cf9a38edeab4269faa596d2fb3f256e33ab440820486",
+            "e51dd65d408155801f0ba41aca0347348dd4625317e4e13a",
+            "3e7ad4c3b0b2acdab8abbf2146c6b5bddfbe501b43eba5b6",
+            "1626f18cd99475b762ad954efc817669ac22062117070b9f",
+            "da733686424a136473a895293dc7343a3fb4e3a0fdde8c57",
+            "b82096aacddee60dadbc59ba8192cc6e6223aa3a1c35493d",
+            "f9efaf778d61eebf00ad229b7df229d820bcfa83e6be420a",
+            "2ab4da76e67ba62c9d4fc9d25e6cf010b4fd127a230f5e8f",
+            "75aa1c48d88d07bb86cf92eee243ec213a4aaf3a9e500cda",
+            "58d434e16f5f85bf021223e0f11fb1f00980d89d43211286",
+            "56ab833027f2a3cb8ef59a58f27e277e267e3e635a4e6074",
+            "c241ed6ae42086264e589d9acb9f4809fdb79cba978ab27c",
+            "ac17691a86b65b13589b24dcfc6c26138f44706fd336d34f",
+            "0f111c2d8c6e72f6adc94404c182a449a5a4d4c4da420257",
+            "3a4883a0bd9fe483db083de847f7207316054a72099afb5d",
+            "2dd54e3dc8ef7aea1f88ac9afb0cc06d235ea82fb9ffe668"
+        ]
+    }
+}
